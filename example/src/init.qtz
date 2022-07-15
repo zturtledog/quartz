@@ -1,0 +1,15 @@
+fn public init() {
+    hwad.new(23, 'Hello, World!')       --/create a new hwad, strings are intentianaly only single quotes
+}
+
+bind hwad {        --/secondclass classes, class will be deconsstructed into structs and functions
+    fn public new(int times, str words) {       --/optinal type declaration on varibles
+        .set(times, words)          --/use empty . notation in order to call this
+    }
+    
+    fn public do() {
+        loop (.times) {             --/optinal (), only there so not . notation
+            print(.words)
+        }
+    }
+}

@@ -1,0 +1,9 @@
+import src.init as pssinit    --/can also be "import static <package>" or "import iil <name> as <name>"
+
+init()      --/call init as raw statement
+
+fn void init() {        --/declare function as init
+    --/optinal return type
+
+    pssinit.init()      --/actual module dot notation
+}
