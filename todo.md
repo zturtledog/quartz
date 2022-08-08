@@ -5,8 +5,8 @@ file
 |- parse [tokenize<moo> : block<sion> : clump<quartz>]
 |
 |- declassify [decompose<declass> : structify<ctruct> : reference<declass> : .class]
-|
-|- branch checks [scope<quartz> : call<quartz> : iil<ill>]
+|_
+| \_- branch checks [scope<quartz> : call<quartz> : iil<ill>]
 |
 |- ctyp {-comp : -qdocs : -iil}
 |   |   |
@@ -33,4 +33,5 @@ class: <_bind_> <name> [_extends_](a) [extension](a) <_{_>
     <_fn public new_><_(_> [params] <_)_> <_{_> [code] <_}_>
 <_}_>
 call:<name><_(_> [params] <_)_>
+let:<_let_><type><name><_=_><actial>
 .notation: <module(a)|struct(b)|bind(a-b)> <_._> <struct(a-b)(c)|function(a)(d)> <_(_>(d) [params](d) <_)_>(d) <_._>(c) <function(c)>(c) <_(_>(c) [params](c) <_)_>(c)

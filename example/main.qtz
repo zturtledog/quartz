@@ -1,7 +1,11 @@
-import src.init as pssinit    --/can also be "import static <package>" or "import iil <name> as <name>"
+import 'src.init' as pssinit    --/can also "import iil <name> as <name>"
 
 init()      --/call init as raw statement
 
+*-/qdoc
+# init
+the entrypoint of this program.
+/-*
 fn void init() {        --/declare function as init
     --/optinal return type
 
